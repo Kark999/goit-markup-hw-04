@@ -397,8 +397,7 @@ img {
 }
 .footer-logo-text {margin-right: 120px;}
 
-.footer-soc {display: flex; align-items: center;
-  justify-content: center;}
+.footer-soc { }
 
 .footer-soc-text {
   color: var(--WHITE, #ffffff);
@@ -407,8 +406,8 @@ img {
   font-weight: 500;
   line-height: 1.5; 
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  text-align: center;
+  text-align: left;
+  margin: 16px;
   }
   .footer-soc-list {display: flex; gap: 16px;
     align-items: center;
@@ -419,8 +418,7 @@ img {
   gap: 16px;
   width: 40px;
   height: 40px;
-  align-items: center;
-  justify-content: center;
+  
 }
 .footer-soc-link {
   display: flex;

@@ -205,7 +205,11 @@ background: var(--OCEAN, #404BBF); bottom: 0; left: 0; left: 50%; transform: tra
 }
 .desc-list-item {
   flex-basis: calc((100% - 24px * 3) / 4);
+  }
+.desc-list-icon { align-items: center;
+  justify-content: center; padding: 24px 100px;
 }
+
 .portfolio-img {
 }
 
@@ -217,6 +221,7 @@ background: var(--OCEAN, #404BBF); bottom: 0; left: 0; left: 50%; transform: tra
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
 .desc-list-text {
   color: var(--SLATE, #434455);
   font-size: 16px;

@@ -79,7 +79,6 @@ img {
   gap: 40px;
 }
 .header-menu-item {
-  color: #404bbf; 
   padding-top: 24px;
   padding-bottom: 24px;
   
@@ -104,7 +103,7 @@ img {
 
 .header-menu-link {
   position: relative;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -146,15 +145,13 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
   url(../images/people-office\ 1.jpg);
   max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .order-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-  url(../images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 188px 0;
   }
 

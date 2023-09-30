@@ -42,7 +42,7 @@ img {
 .header-logo {
   display: flex;
   justify-content: flex-start;
-  color: #404bbf; 
+  color: var(--IRIS, #4D5AE5);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 1.17;
@@ -67,8 +67,7 @@ img {
   display: flex;
   gap: 40px;
   position: relative;
-  color: #404bbf; 
-}
+  }
 .header-navigation {
   display: flex;
   align-items: center;
@@ -83,8 +82,11 @@ img {
   padding-bottom: 24px;
   
   }
+.header-menu-item:first-child .header-menu-link {
+color: #404bbf;
+}
 
-.header-menu-link::after {
+.header-menu-item:first-child .header-menu-link::after {
   content: "";
   position: absolute; 
   width: 48px; 
@@ -103,7 +105,7 @@ img {
 
 .header-menu-link {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

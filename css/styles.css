@@ -58,7 +58,9 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); ;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-menu {
   display: flex;
@@ -67,18 +69,25 @@ img {
 }
 .header-navigation {
   display: flex;
-  align-items: center;}
+  align-items: center;
+}
+
 .header-list {
   display: flex;
   gap: 40px;
 }
 .header-menu-item {
-  color: #404bbf;
+  
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
+  
   }
-.header-menu-item::after {
+.header-menu-link {
+  position: relative;
+  color: #404bbf;
+}
+
+.header-menu-link::after {
   content: "";
   position: absolute; 
   width: 48px; 
@@ -139,8 +148,7 @@ img {
 
 .order-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  background-image: linear-gradient
-  (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
   url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -353,9 +361,11 @@ img {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .portfolio-list-item:hover .portfolio-cover-container {
+  .portfolio-list-item:hover .portfolio-cover-text {
   transform: translateY(0);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
 .portfolio-cover-wrap {
@@ -371,8 +381,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-padding: 0 32px;
-padding-top: 40px;
+padding: 40px 32px;
 position: absolute; 
 top: 0;
 height: 100%;

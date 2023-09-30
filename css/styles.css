@@ -78,15 +78,11 @@ img {
   gap: 40px;
 }
 .header-menu-item {
-  
+  color: #404bbf; 
   padding-top: 24px;
   padding-bottom: 24px;
   
   }
-.header-menu-link {
-  position: relative;
-  color: #404bbf;
-}
 
 .header-menu-link::after {
   content: "";
@@ -105,6 +101,7 @@ img {
   font-style: normal;
 }
 .header-menu-link {
+  position: relative;
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
@@ -151,6 +148,8 @@ img {
 
 .order-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

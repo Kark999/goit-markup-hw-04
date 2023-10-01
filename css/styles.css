@@ -431,12 +431,15 @@ img {
 /** ============== FOOTER ======================== */
 
 .footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+  max-width: 1440px;
 }
 .footer-container {
   display: flex;
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0;
   align-items: baseline;
+  width: 100%;
 }
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
